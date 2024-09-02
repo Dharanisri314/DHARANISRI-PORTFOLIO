@@ -1,0 +1,271 @@
+#home{
+    display:flex;
+    width: 1750px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(233, 173, 53);
+    width: 1750px;
+}
+.headone{
+    width: 911px;
+}
+.navbar{
+    background-color: black;
+    width: 1014px;
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav-item{
+    list-style-type: none;
+    padding: 5px;
+    margin: 10px;
+}
+a{
+    text-decoration: none;
+    color: rgb(233, 173, 53);
+}
+a:hover{
+    background-color: rgb(233, 173, 53);
+    color: black;
+    padding: 15px;
+}
+.one{
+    background-color: rgb(233, 173, 53);
+    height: 1000px;
+    width: 900px;
+}
+.one>img{
+  height: 400px;
+  width: 400px;
+  margin: 80px;
+}
+.two{
+    background-color: black;
+    color: white;
+    height: 1000px;
+    width: 1000px;
+    font-size: 40px;
+}    
+.two>div{
+    margin-top: 150px;
+}
+.three{
+    display: flex;
+    justify-content: center;
+}
+.three > button{
+    margin: 40px;
+    background-color: black;
+    color: rgb(233, 173, 53);
+    margin: 20px ;
+}
+#about{
+    width: 1750px;
+    height: 700px;
+    background-color: black;
+    color: white;
+    font-size: 40px;
+}
+.four{
+text-align: left;
+}
+#about{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 40px;
+}
+.work > img{
+margin-bottom: 50px;
+}
+#Education{
+    background-color: black;
+    color: white;
+    margin-bottom: 20px auto;
+
+}
+.ed1{
+    display: flex;
+    justify-content: space-evenly;
+}
+.me1 > h1{
+    margin-top: 0px;
+    font-size: 45px;
+}
+.content-one{
+    border: 10px solid rgb(233, 173, 53);
+    border-radius: 30px;
+    background-color:rgb(233, 173, 53);
+    color: white;
+    height: 200px;
+    width: 600px; 
+    margin-top: 20px;
+    margin-left: 50PX;
+    font-size: 30px;
+    text-align: left;
+    padding-bottom: 0px auto;
+}
+.content-one-child{
+    display: flex;
+    margin-bottom: 0px auto;
+}
+.icon{
+    padding-top: 20px;
+    display: flex;
+}
+#skills{
+    text-align: center;
+    background-color: black;
+    height: 700px;
+    color: white;
+    margin-top: 0px auto;
+}
+#skills > h1{
+    margin-top: 0px;
+    padding-top: 90px;
+    font-size: 45px;
+}
+.bx{
+    display: flex;
+    justify-content: space-evenly;
+}
+.bx-one{
+    margin-top: 80px;
+    border: 1px solid rgb(233, 173, 53);
+    padding: 30px;
+    font-size: 25px;
+}
+#project{
+    background-color: black;
+    text-align: center;
+    color: white;
+    margin-top: 0px auto;
+    margin-bottom: 0px auto;
+}
+#project > h1{
+    margin: 0px auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 45px;
+}
+.pr{
+   display: flex;
+   justify-content: space-evenly;
+}
+.bx-two{
+    border: 1px solid rgb(233, 173, 53);
+    border-radius: 10px;
+    background-color: rgb(244, 194, 94);
+    padding: 30px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.bx-one-i{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+}
+
+.bx-one-i>i{
+    height: 10px;
+    width: 100px;
+}
+#achievement{
+    background-color: black;
+    text-align: center;
+    color: white;
+    margin-top: 0px auto;
+    display: flex;
+    justify-content: space-evenly;
+    width: 1750px;
+}
+#achievement p{
+    font-size: 30px;
+}
+.hi{
+    margin-top: 0px auto;
+    padding-top: 30px;
+    color: rgb(244, 194, 94);
+    font-size: 40px;
+}
+.B{
+    border: 1px solid rgb(116, 88, 34);
+    background-color: rgb(114, 87, 33);
+    font-size: 30px;
+    height: 300px;
+    margin-top: 50px;
+}
+#Services{
+    background-color: black;
+    color: white;
+    font-size: 45px;
+    margin-top: 0px auto;
+    height: 500px;
+    width: 1650px;
+    padding: 50px;
+
+}
+    
+#Services>h1{
+    margin: 0px auto;
+    padding-top: 40px;
+    text-align: center;
+    color: rgb(244, 194, 94);
+}
+
+.sr{
+    display: flex;
+    justify-content: space-evenly;
+}
+.ser-bx{
+    margin: 10px;
+    background-color:  rgb(244, 194, 94);
+    color: white;
+    width: 250px;
+    height: 150px;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px;
+    border-radius: 10px;
+}
+#contact{
+    background-color: black;
+    margin-top: 0px auto;
+}
+#contact>h1{
+    color:  rgb(244, 194, 94);
+    font-size: 70px;
+    text-align: start;
+    padding-left: 45px;
+    margin-top: 0px;
+}
+.field_set{
+    border-color: rgb(244, 194, 94);
+    color: white;
+    width: 700px;
+    height: 55px;
+    border-radius: 15px;
+    text-align: start;
+    padding-bottom: 10px;
+    margin: 50px;
+}
+legend{
+    color: rgb(244, 194, 94);
+}
+.int{
+    border: 0;
+    background-color: black;
+    color: rgb(244, 194, 94);
+    font-size: 25px;
+}
+.con1{
+    padding-bottom: 20px;
+}
+
+
+
+
