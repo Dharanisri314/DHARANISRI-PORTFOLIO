@@ -1,6 +1,7 @@
 .headone{
     font-size: 40px;
     color:white;
+    padding-left: 20px;
 }
 
 body{
@@ -9,6 +10,10 @@ body{
 header{
     display: flex;
     justify-content: space-between;
+}
+.navbar{
+    position: fixed;
+    margin-left: 400px;
 }
 ul{
     display: flex;
@@ -43,6 +48,10 @@ a:hover{
 }
 .two{
     width: fit-content;
+}
+.image{
+    background-color: black;
+    border-radius: 100px;
 }
 
 
@@ -101,12 +110,10 @@ a:hover{
 }
 
 .image{
-
     background-color: black;
     margin-top: 100px;
     border-radius: 100px;
     margin-right: 380px;
-
 }
 .one{
     background-color: rgb(233, 173, 53);
@@ -195,8 +202,9 @@ border-radius: 15px;
     margin-bottom: 20px auto;
    height: 600px;
    font-size: 40px;
-
+  padding-left: 40px;
 }
+
 .ed1{
     display: flex;
     justify-content: space-evenly;
@@ -206,6 +214,7 @@ border-radius: 15px;
     margin-top: 0px;
     font-size: 35px;
     color: rgb(233, 173, 53);
+    padding-left: 35px;
 }
 .content-one{
     border: 10px solid rgb(233, 173, 53);
@@ -225,13 +234,23 @@ border-radius: 15px;
 .content-one-child{
     display: flex;
     margin-bottom: 0px auto;
+    color: black;
 }
+h6{
+    font-size: 18px;
+}
+p{
+    font-size: 15;
+}
+
+
 .icon{
     padding-top: 20px;
     display: flex;
 }
 .icon>img{
     margin-top: 20px;
+    background-color: black;
 
 }
 #skills{
@@ -288,10 +307,13 @@ border-radius: 15px;
 .bx-two{
     border: 1px solid rgb(233, 173, 53);
     border-radius: 10px;
-    background-color: rgb(244, 194, 94);
+    background-color: rgb(233, 173, 53);
     padding: 30px;
     margin-top: 50px;
     margin-bottom: 100px;
+}
+.bx-two>h2{
+    color: black;
 }
 .bx-one-i{
     display: flex;
@@ -323,9 +345,9 @@ border-radius: 15px;
     font-size: 45px;
 }
 .B{
-    border: 1px solid rgb(116, 88, 34);
-    background-color: rgb(122, 102, 63);
-    font-size: 25px;
+    border: 1px solid rgb(233, 173, 53);
+    background-color: rgb(233, 173, 53);
+    font-size: 16px;
     height: 180px;
     margin-top: 120px;
     border-radius: 15px;
@@ -334,8 +356,20 @@ border-radius: 15px;
    margin-right: 20px;
 }
 .B>p{
-    font-size: 25px;
+    /* font-size: 15px; */
     padding: 0px;
+    color: black;
+    padding-top: 10px;
+}
+.B>h5{
+  color: black;
+  font-size: 20px;
+}
+.B>h3{
+     color: black;
+}
+.B>h1{
+    color: black;
 }
 #Services{
     background-color: black;
@@ -365,8 +399,8 @@ border-radius: 15px;
 }
 .ser-bx{
     margin: 10px;
-    background-color:  rgb(244, 194, 94);
-    color: white;
+    background-color:rgb(233, 173, 53);
+    color:black;
     width: 250x;
     height: 100px;
     text-align: center;
@@ -374,7 +408,7 @@ border-radius: 15px;
     justify-content: space-evenly;
     padding: 30px;
     border-radius: 10px;
-    font-size: 30px;
+    font-size: 25px;
     margin-top: 38px;
 }
 #contact{
@@ -423,7 +457,7 @@ legend{
 }
 .information{
      color: black;
-     background-color:rgb(244, 194, 94);
+     background-color: rgb(233, 173, 53);;
      width: 700px;
      height: 350px;
      margin-right: 20px;
@@ -433,7 +467,7 @@ legend{
 .information_child{
     display: flex;
     justify-content: space-evenly;
-    font-size: 30px;
+    font-size: 25px;
     height: 80px;
 }
 .information_child>i{
@@ -446,7 +480,7 @@ legend{
     height: 20px;
 } 
 
-@media{}
+
 
 
 
