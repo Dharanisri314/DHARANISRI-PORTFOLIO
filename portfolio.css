@@ -1,19 +1,24 @@
 .headone{
     font-size: 40px;
     color:white;
-    padding-left: 20px;
+    padding-left: 40px;
+    background-color:black;
 }
 
 body{
     background-color: black;
+    overflow-x: hidden;
 }
 header{
     display: flex;
     justify-content: space-between;
+    background-color: black;
 }
 .navbar{
     position: fixed;
     margin-left: 400px;
+    background-color: black;
+    padding-right: 200px;
 }
 ul{
     display: flex;
@@ -47,79 +52,10 @@ a:hover{
     width: fit-content;
 }
 .image{
-    background-color: black;
     border-radius: 100px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-/* *{
-    margin-top: 0px;
-    margin-right: 0px;
-    margin-left: 0;
-
-}
-
-#home{
-    display:flex;
-    height: 780px;
-    
-}
-header{
-    display: flex;
-    justify-content: space-between;
+    border-radius: 200px;
     background-color: rgb(233, 173, 53);
 }
-
-.navbar{
-    background-color: black;
-    width: 50%;
-}
-ul{
-    display: flex;
-    justify-content: space-evenly;
-    position: fixed;
-}
-.nav-item{
-    list-style-type: none;
-    padding: 5px;
-    margin: 10px;
-}
-a{
-    text-decoration: none;
-    color: rgb(233, 173, 53);
-    font-size: 15px;
-    
-
-}
-a:hover{
-    background-color: rgb(233, 173, 53);
-    color: black;
-}
-
-.image{
-    background-color: black;
-    margin-top: 100px;
-    border-radius: 100px;
-    margin-right: 380px;
-}
-.one{
-    background-color: rgb(233, 173, 53);
-    height: 100%;
-    /* width: 875px; */
-/* } */
-
-
-
 .one>img{
   margin: 80px;
   
@@ -148,8 +84,7 @@ a:hover{
     font-size: 20px;
     width: 150px;
     height: 40px;
-   
-    border: 2px solid rgb(233, 173, 53) ;
+   border: 2px solid rgb(233, 173, 53) ;
 }
 #about{
      height: 700px;
@@ -158,7 +93,6 @@ a:hover{
     display: flex;
     justify-content: space-evenly;
     padding-top: 40px;
-
 }
 .four{
 text-align: left;
@@ -177,17 +111,6 @@ display: block;
     font-size: 29px;
     padding-top: 50px;
 }
-
-/* #about{
-    display: flex;
-    justify-content: space-evenly;
-    padding-top: 40px; */
-/* } */
-/* .four>h1,p{
-    height: 250px;
-} */     
-
-
 .work > img{
 margin-bottom: 50px;
 height:290px;
@@ -274,7 +197,6 @@ p{
 .bx{
     display: flex;
     justify-content: space-evenly;
-
 }
 .bx-one{
     margin-top: 110px;
@@ -380,9 +302,7 @@ p{
     height: 900px;
     padding: 50px;
     height: 600px;
-
 }
-    
 #Services>h1{
     margin: 0px auto;
     padding-top: 40px;
@@ -480,8 +400,9 @@ legend{
     margin: 80px 10px 0px 10px;
     height: 20px;
 } 
-
-
+.img{
+    transform: scale(1.5);
+}
 
 
 
