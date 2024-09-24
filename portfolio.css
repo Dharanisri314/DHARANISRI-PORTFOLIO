@@ -161,7 +161,8 @@ h6{
     font-size: 18px;
 }
 p{
-    font-size: 15;
+    font-size: 20px;
+    padding-bottom: 50px;
 }
 
 
@@ -403,9 +404,7 @@ legend{
 }
 .rounder{
     text-align: center;
-    align-items: center;  
-
-
+    align-items: center; 
 }
 .rounder button{
     margin: 50px; 
