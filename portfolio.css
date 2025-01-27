@@ -1,25 +1,29 @@
-.headone{
+
+
+.headone {
     font-size: 40px;
-    color:white;
+    color: white;
     padding-left: 50px;
     margin-top: 50px;
 }
-.headone>
-h1{
+
+.headone>h1 {
     background-color: black;
     width: 100px;
 }
 
-body{
+body {
     background-color: black;
     overflow-x: hidden;
 }
-header{
+
+header {
     display: flex;
     justify-content: space-between;
     background-color: black;
 }
-.navbar{
+
+.navbar {
     position: fixed;
     z-index: 10;
     padding-right: 200px;
@@ -27,63 +31,80 @@ header{
     background-color: black;
     width: 100%;
 }
-ul{
+
+ul {
     display: flex;
     justify-content: space-evenly;
 }
-li{
+
+li {
     margin: 10px;
     list-style-type: none;
 }
-li>a{
+
+li>a {
     text-decoration: none;
     color: white;
+    font-family: "poppins", sans-serif;
 }
-a:hover{
+
+a:hover {
     color: rgb(233, 173, 53);
 }
-#home{
+
+#home {
     display: flex;
     justify-content: space-around;
     height: fit-content;
 }
-.dh{box-shadow: inset 500px 0px rgb(233, 173, 53);
+
+.dh {
+    box-shadow: inset 500px 0px rgb(233, 173, 53);
 }
-.one{
+
+.one {
     background-color: rgb(233, 173, 53);
     height: 480px;
     margin-top: 0px auto;
     width: fit-content;
 }
-.two{
+
+.two {
     width: fit-content;
 }
-.image{
+
+.image {
     border-radius: 100px;
     border-radius: 200px;
     background-color: rgb(233, 173, 53);
 }
-.one>img{
-  margin: 80px;
-}
-.two{
-    color: white;
-    font-size: 20px;
-    padding-right: 150px ;
-}    
-.two>p{
-    font-size: 20px;
-}
-.two>h5{
-   font-size: 30px;
+
+.one>img {
+    margin: 80px;
 }
 
-.three{
+.two {
+    color: white;
+    font-size: 20px;
+    padding-right: 150px;
+}
+
+.two>p {
+    font-size: 20px;
+}
+
+.two>h5 {
+    font-size: 30px;
+    font-family: "poppins", sans-serif;
+}
+
+.three {
     display: flex;
     justify-content: center;
     padding-bottom: 10px;
 }
-.three button{
+
+.three button {
     margin: 50px;
     background-color: black;
     color: rgb(233, 173, 53);
@@ -91,69 +112,78 @@ a:hover{
     font-size: 20px;
     width: 150px;
     height: 40px;
-   border: 2px solid rgb(233, 173, 53) ;
+    border: 2px solid rgb(233, 173, 53);
 }
-#about{
-     height: 700px;
+
+#about {
+    height: 700px;
     background-color: black;
     color: white;
     display: flex;
     justify-content: space-evenly;
     padding-top: 40px;
 }
-.four{
-text-align: left;
-background-color: black;
-color: white;
-height: 900px;
-margin-top: 80px;
-display: block;
+
+.four {
+    text-align: left;
+    background-color: black;
+    color: white;
+    height: 900px;
+    margin-top: 80px;
+    display: block;
 }
-.four>h1{
+
+.four>h1 {
     font-size: 35px;
-    color: rgb(233, 173, 53); 
+    color: rgb(233, 173, 53);
+    font-family: "poppins", sans-serif;
 }
-.four>p{
+
+.four>p {
     height: 150px;
     font-size: 22px;
     padding-top: 110px;
 
 }
-.work > img{
-margin-bottom: 50px;
-height:290px;
-width: 300px;
-margin-top: 250px;
-border-radius: 15px;
+
+.work>img {
+    margin-bottom: 50px;
+    height: 290px;
+    width: 300px;
+    margin-top: 250px;
+    border-radius: 15px;
 
 }
-#Education{
+
+#Education {
     background-color: black;
     color: white;
     margin-bottom: 20px auto;
-   height: 600px;
-   font-size: 40px;
-  padding-left: 40px;
+    height: 600px;
+    font-size: 40px;
+    padding-left: 40px;
 }
 
-.ed1{
+.ed1 {
     display: flex;
     justify-content: space-evenly;
-    
+
 }
-.me1 > h1{
+
+.me1>h1 {
     margin-top: 0px;
     font-size: 35px;
     color: rgb(233, 173, 53);
     padding-left: 35px;
 }
-.content-one{
+
+.content-one {
     border: 10px solid rgb(233, 173, 53);
     border-radius: 30px;
-    background-color:rgb(233, 173, 53);
+    background-color: rgb(233, 173, 53);
     color: white;
     height: 120px;
-    width: 350px; 
+    width: 350px;
     margin-top: 100px;
     font-size: 20px;
     text-align: left;
@@ -162,21 +192,24 @@ border-radius: 15px;
     text-align: center;
 }
 
-.content-one-child{
+.content-one-child {
     display: flex;
     margin-bottom: 0px auto;
     color: black;
     overflow: hidden;
 }
-.content-one-child >div >p{
+
+.content-one-child>div>p {
     font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-h6{
-    font-size: 18px;
+h6 {
     margin: 1px;
+    font-family: "poppins", sans-serif;
 }
-p{
+
+p {
     font-size: 20px;
     padding-bottom: 50px;
     line-height: 30px;
@@ -185,48 +218,57 @@ p{
 
 
 
-.icon{
+.icon {
     padding-top: 20px;
     display: flex;
 }
-.icon>img{
+
+.icon>img {
     margin-top: 20px;
     background-color: black;
 
 }
-#skills{
+
+#skills {
     text-align: center;
     background-color: black;
     height: 700px;
     color: white;
     margin-top: 0px auto;
 }
-.bx-one>a{
- color:rgb(233, 173, 53);
- text-decoration: none;
- list-style: none;
+
+.bx-one>a {
+    color: rgb(233, 173, 53);
+    text-decoration: none;
+    list-style: none;
 }
-#skills > h1{
+
+#skills>h1 {
     margin-top: 0px;
     padding-top: 90px;
     font-size: 50px;
-    color:rgb(233, 173, 53);
+    color: rgb(233, 173, 53);
+    font-family: "poppins", sans-serif;
 }
-.bx{
+
+.bx {
     display: flex;
     justify-content: space-evenly;
 }
-.bx-one{
+
+.bx-one {
     margin-top: 110px;
     border: 1px solid rgb(233, 173, 53);
     padding: 30px;
     font-size: 25px;
     transition: 0.5s;
 }
-.bx-one:hover{
+
+.bx-one:hover {
     box-shadow: rgb(233, 173, 53) 2px 2px 10px;
 }
-#project{
+
+#project {
     background-color: black;
     text-align: center;
     color: white;
@@ -234,18 +276,21 @@ p{
     margin-bottom: 0px auto;
     height: 600px;
 }
-#project > h1{
+
+#project>h1 {
     margin: 0px auto;
     padding-top: 70px;
     padding-bottom: 40px;
     font-size: 50px;
     color: rgb(233, 173, 53);
 }
-.pr{
-   display: flex;
-   justify-content: space-evenly;
+
+.pr {
+    display: flex;
+    justify-content: space-evenly;
 }
-.bx-two{
+
+.bx-two {
     border: 1px solid rgb(233, 173, 53);
     border-radius: 10px;
     background-color: rgb(233, 173, 53);
@@ -253,20 +298,23 @@ p{
     margin-top: 50px;
     margin-bottom: 100px;
 }
-.bx-two>h2{
+
+.bx-two>h2 {
     color: black;
 }
-.bx-one-i{
+
+.bx-one-i {
     display: flex;
     justify-content: space-around;
     padding-top: 40px;
 }
 
-.bx-one-i>i{
+.bx-one-i>i {
     height: 10px;
     width: 100px;
 }
-#achievement{
+
+#achievement {
     background-color: black;
     text-align: center;
     color: white;
@@ -275,17 +323,21 @@ p{
     justify-content: space-evenly;
     height: 500px;
 }
-#achievement p{
-    font-size: 22px;
+
+#achievement p {
+    font-size: 20px;
     margin: 0px;
+    font-family: "poppins", sans-serif;
 }
-.hi{
+
+.hi {
     margin-top: 0px auto;
     padding-top: 70px;
     color: rgb(201, 146, 45);
     font-size: 45px;
 }
-.B{
+
+.B {
     border: 1px solid rgb(233, 173, 53);
     background-color: rgb(233, 173, 53);
     font-size: 16px;
@@ -293,26 +345,32 @@ p{
     margin-top: 120px;
     border-radius: 15px;
     width: 350px;
-   padding: 20px;
-   margin-right: 20px;
+    padding: 20px;
+    margin-right: 20px;
 }
-.B>p{
+
+.B>p {
     /* font-size: 15px; */
     padding: 0px;
     color: black;
     padding-top: 10px;
 }
-.B>h5{
-  color: black;
-  font-size: 20px;
+
+.B>h5 {
+    color: black;
+    font-size: 20px;
+    font-family: "poppins", sans-serif;
 }
-.B>h3{
-     color: black;
-}
-.B>h1{
+
+.B>h3 {
     color: black;
 }
-#Services{
+
+.B>h1 {
+    color: black;
+}
+
+#Services {
     background-color: black;
     color: white;
     font-size: 40px;
@@ -321,25 +379,29 @@ p{
     padding: 50px;
     height: 600px;
 }
-#Services>h1{
+
+#Services>h1 {
     margin: 0px auto;
     padding-top: 40px;
     text-align: center;
     color: rgb(233, 173, 53);
+    font-family: "poppins", sans-serif;
 }
-#Services>p{
-    font-size: 25px;
+
+#Services>p {
+    font-size: 20px;
     text-align: center;
 }
 
-.sr{
+.sr {
     display: flex;
     justify-content: space-evenly;
 }
-.ser-bx{
+
+.ser-bx {
     margin: 10px;
-    background-color:rgb(233, 173, 53);
-    color:black;
+    background-color: rgb(233, 173, 53);
+    color: black;
     width: 250x;
     height: 100px;
     text-align: center;
@@ -350,22 +412,26 @@ p{
     font-size: 25px;
     margin-top: 38px;
 }
-.ser-bx>p{
-    font-size: 20px;
+
+.ser-bx>p {
+    font-size: 19px;
+    font-family: "poppins", sans-serif;
 }
-#Contact{
+
+#Contact {
     background-color: black;
     margin-top: 0px auto;
     height: 700px;
 
 }
 
-.contact{
+.contact {
     display: flex;
     justify-content: space-evenly;
 }
-#Contact>h1{
-    color:  rgb(244, 194, 94);
+
+#Contact>h1 {
+    color: rgb(244, 194, 94);
     font-size: 50px;
     text-align: start;
     padding-left: 35px;
@@ -373,77 +439,184 @@ p{
     text-align: center;
     color: rgb(233, 173, 53);
 }
-.field_set{
+
+.field_set {
     border-color: rgb(244, 194, 94);
     color: white;
-    width: 500px;
-    height: 55px;
+    width: 400px;
+    height: 40px;
     border-radius: 15px;
     text-align: start;
     padding-bottom: 10px;
     margin: 50px;
 }
-legend{
+
+legend {
     color: rgb(244, 194, 94);
 }
-.int{
+
+.int {
     border: 0;
     background-color: black;
     color: rgb(244, 194, 94);
-    font-size: 25px;
+    font-size: 15px;
+
 }
-.con1{
+
+.con1 {
     padding-bottom: 20px;
 }
-.information{
-     color: black;
-     background-color: rgb(233, 173, 53);
-     width: 700px;
-     height: 350px;
-     margin-right: 20px;
-     border-radius: 10px;
-     margin-top: 50px;
+
+.information {
+    color: black;
+    background-color: rgb(233, 173, 53);
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+    margin-top: 50px;
 }
-.information_child{
+
+.information_child {
     display: flex;
     justify-content: space-evenly;
     font-size: 25px;
     height: 80px;
 }
-.information_child>i{
-    margin: 80px 10px 0px 10px;
+
+.information_child>i {
     height: 10px;
-    padding: 0px;
+    padding-top: 45px;
 }
-.information_child>p{
-    margin: 80px 10px 0px 10px;
+
+.information_child>p {
     height: 20px;
-    font-size: 23px;
-} 
-.img{
+    padding-top: 20px;
+    font-size: 19px;
+}
+
+.img {
     transform: scale(1.5);
 }
-.rounder{
+
+.rounder {
     text-align: center;
-    align-items: center; 
+    align-items: center;
 }
-.rounder button{
+
+.rounder button {
     margin-top: 10px;
-    background-color: rgb(233, 173, 53); 
+    background-color: rgb(233, 173, 53);
     color: black;
-    border: 20px solid   rgb(233, 173, 53);
+    border: 20px solid rgb(233, 173, 53);
     font-size: 20px;
     border-radius: 10px;
     width: 110px;
     height: 60px;
 }
-button:active{
- transition: 0.5s;
- scale: 0.9;
+
+button:active {
+    transition: 0.5s;
+    scale: 0.9;
 }
 
+.whatsapp-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+}
 
+.whatsapp-button a img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
 
+.whatsapp-button a img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
 
+.first_box {
+    margin: 10px;
+    width: 100px;
+    height: 10px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+}
 
+#second_box {
+    margin: 0px;
+    width: 40px;
+    height: 10px;
+    background-color: rgb(233, 173, 53);
+    border: none;
+    border-radius: 10px;
+}
 
+.ps {
+    font-size: 70px;
+}
+
+.two h5 {
+    padding-left: 110px;
+    font-family: "poppins", sans-serif;
+}
+
+.two h1 {
+    padding-left: 110px;
+    font-family: "poppins", sans-serif;
+}
+
+pre {
+    font-family: "poppins", sans-serif;
+    font-size: 20px;
+}
+
+.four>p {
+    font-family: "poppins", sans-serif;
+    font-size: 20px;
+}
+
+.me1>h1 {
+    font-family: "poppins", sans-serif;
+}
+
+h1 {
+    font-family: "poppins", sans-serif;
+}
+
+.bx-two>h2 {
+    font-family: "poppins", sans-serif;
+    font-size: 19px;
+}
+
+.bx-one h5 {
+    font-family: "poppins", sans-serif;
+    font-size: 20px;
+}
+
+p {
+    font-family: "poppins", sans-serif;
+    font-size: 10px;
+}
+
+#Contact>h1 {
+    font-family: "poppins", sans-serif;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-family: "poppins", sans-serif;
+}
+.three>a{
+    margin-right: 30px;
+    padding-bottom:0px;
+}
+.B>a{
+    color: black;
+}
